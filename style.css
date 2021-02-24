@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(87,128,122);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: rgb(87,128,122);
+}
+
+#container {
+  background-color: rgb(249,246,192);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 1170;
+  width: 600px;
+}
+
+h3 {
+  padding: 10px 20px;
+}
+
+.joke {
+  font-size: 1rem;
+  padding: 10px 20px;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 0;
+  cursor: pointer;
+  background-color: rgb(227,212,70);
+  color: rgb(87,128,122);
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:hover {
+    transform: scale(0.98);
+}
+}
